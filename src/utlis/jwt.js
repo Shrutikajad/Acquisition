@@ -1,5 +1,4 @@
-import jwt, { verify } from 'jsonwebtoken'
-import { token } from 'morgan'
+import jwt from 'jsonwebtoken'
 import { logger } from '../config/logger'
 
 const JWT_SECRET=process.env.JWT_SECRET || 'your-jwt-secret'
